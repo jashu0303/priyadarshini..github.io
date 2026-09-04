@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Priya Darshini K. | General Manager</title>
+<style>
+:root{
+  --ink:#18202a; --muted:#66707c; --paper:#f7f5f0; --card:#ffffff;
+  --accent:#9a7446; --line:#e6e0d7;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}
+a{color:inherit;text-decoration:none}
+nav{position:fixed;top:0;left:0;right:0;z-index:5;background:rgba(247,245,240,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-inner{max-width:1120px;margin:auto;padding:16px 28px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;letter-spacing:.08em}
+.nav-links{display:flex;gap:25px;font-size:14px;color:var(--muted)}
+.hero{max-width:1120px;margin:auto;padding:130px 28px 80px;display:grid;grid-template-columns:1.15fr .85fr;gap:70px;align-items:center}
+.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:12px;color:var(--accent);font-weight:700}
+h1{font-family:Georgia,serif;font-size:clamp(48px,7vw,82px);line-height:.98;margin:18px 0}
+.hero h2{font-size:21px;font-weight:500;color:var(--muted);margin:0 0 25px}
+.hero p{max-width:650px;color:#59636e;font-size:17px}
+.cta{display:inline-block;margin-top:20px;padding:13px 22px;background:var(--ink);color:white;border-radius:3px;font-weight:700}
+.photo-wrap{position:relative}
+.photo-wrap:before{content:"";position:absolute;inset:25px -18px -18px 18px;border:1px solid var(--accent);z-index:0}
+.photo{position:relative;z-index:1;width:100%;max-width:390px;height:500px;object-fit:cover;object-position:center top;display:block;margin:auto;filter:saturate(.9)}
+section{max-width:1120px;margin:auto;padding:80px 28px}
+.section-title{font-family:Georgia,serif;font-size:42px;margin:0 0 35px}
+.about{display:grid;grid-template-columns:.7fr 1.3fr;gap:70px;border-top:1px solid var(--line)}
+.about p{font-size:18px;color:#58626d}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.skill{background:var(--card);padding:24px;border:1px solid var(--line);font-weight:700}
+.skill span{display:block;color:var(--accent);font-size:12px;margin-bottom:7px;letter-spacing:.12em}
+.achievement{background:var(--ink);color:white;padding:45px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.achievement h3{font-family:Georgia,serif;font-size:34px;margin:0 0 8px}
+.achievement p{margin:0;color:#d7dce1}
+.trophy{font-size:52px}
+footer{border-top:1px solid var(--line);padding:35px 28px;color:var(--muted);text-align:center;font-size:14px}
+@media(max-width:800px){
+  .nav-links{display:none}
+  .hero{grid-template-columns:1fr;gap:45px;padding-top:105px}
+  .photo{height:440px}
+  .about{grid-template-columns:1fr;gap:20px}
+  .skills{grid-template-columns:1fr 1fr}
+}
+@media(max-width:520px){.skills{grid-template-columns:1fr}.achievement{display:block}.trophy{margin-top:20px}}
+</style>
+</head>
+<body>
+<nav><div class="nav-inner"><div class="logo">PRIYA DARSHINI .K</div>
+<div class="nav-links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#achievement">Achievement</a></div></div></nav>
+
+<header class="hero">
+<div>
+  <div class="eyebrow">Professional Portfolio</div>
+  <h1>Priya<br>Darshini .K</h1>
+  <h2>General Manager | Mantri Developers</h2>
+  <p>10 years of experience in team management, leadership, and operations, with a strong focus on people, execution, and continuous improvement.</p>
+  <a class="cta" href="#about">Explore My Profile ↓</a>
+</div>
+<div class="photo-wrap"><img class="photo" src="priya-darshini.jpg" alt="Priya Darshini K."></div>
+</header>
+
+<section id="about" class="about">
+<div><div class="eyebrow">01 — About</div><h2 class="section-title">Leadership with purpose.</h2></div>
+<div>
+<p>With 10 years of experience, I have built strong expertise in team management, leadership, and operations.</p>
+<p>As a General Manager, I focus on leading teams effectively, managing daily operations, coordinating activities, and ensuring work is completed smoothly and efficiently.</p>
+<p>I believe in teamwork, responsibility, clear communication, and continuous improvement. My approach is to support my team, solve challenges effectively, and contribute positively to the growth of the organization.</p>
+</div>
+</section>
+
+<section id="skills">
+<div class="eyebrow">02 — Core Strengths</div><h2 class="section-title">Key Skills</h2>
+<div class="skills">
+<div class="skill"><span>01</span>Team Management</div>
+<div class="skill"><span>02</span>Leadership</div>
+<div class="skill"><span>03</span>Operations</div>
+<div class="skill"><span>04</span>Communication</div>
+<div class="skill"><span>05</span>Decision-Making</div>
+<div class="skill"><span>06</span>Team Development</div>
+</div>
+</section>
+
+<section id="achievement">
+<div class="achievement">
+<div><div class="eyebrow" style="color:#c8a77d">03 — Recognition</div><h3>Best Achiever of the Year</h3><p>Recognized for strong performance, contribution, and achievement.</p></div>
+<div class="trophy">🏆</div>
+</div>
+</section>
+
+<footer>© Priya Darshini .K · General Manager · Mantri Developers</footer>
+</body>
+</html>
